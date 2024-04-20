@@ -23,7 +23,7 @@ This is not my project I just created the template.</Overview>
   <DateInstalled>1713579429</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Requires>after first run it will fail, go into stayintarkov folder and delete delete_me file then relaunch</Requires>
+  <Requires>after starting container it will fail, go into stayintarkov folder and delete delete_me file then relaunch</Requires>
   <Config Name="data" Target="/opt/server" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/stayintarkov/</Config>
   <Config Name="Port" Target="6969" Default="6969" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">6969</Config>
   <Config Name="Port" Target="6970" Default="6970" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">6970</Config>
