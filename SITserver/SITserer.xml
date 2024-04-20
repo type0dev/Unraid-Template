@@ -16,14 +16,14 @@ This is not my project I just created the template.</Overview>
   <Category>GameServers:</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://avatars.githubusercontent.com/u/151196584</Icon>
+  <Icon>https://raw.githubusercontent.com/type0dev/Unraid-Template/main/SITserver/sitserver.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1713579429</DateInstalled>
+  <DateInstalled>1713580211</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Requires>after starting container it will fail, go into stayintarkov folder and delete delete_me file then relaunch</Requires>
+  <Requires>after first run it will fail, go into stayintarkov folder and delete delete_me file then relaunch</Requires>
   <Config Name="data" Target="/opt/server" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/stayintarkov/</Config>
   <Config Name="Port" Target="6969" Default="6969" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">6969</Config>
   <Config Name="Port" Target="6970" Default="6970" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">6970</Config>
