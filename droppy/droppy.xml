@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+    <Name>droppy</Name>
+    <Repository>silverwind/droppy</Repository>
+    <Registry/>
+    <Network>bridge</Network>
+    <MyIP/>
+    <Shell>sh</Shell>
+    <Privileged>false</Privileged>
+    <Support/>
+    <Project>https://github.com/silverwind/droppy</Project>
+    <Overview>droppy is a self-hosted file storage server with a web interface and capabilities to edit files and view media directly in the browser. It is particularly well-suited to be run on low-end hardware like the Raspberry Pi.&#xD;
+        &#xD;
+        **Development on droppy has ceased, However it is a solid simple solution for file sharing and management.**</Overview>
+    <Category>Cloud:</Category>
+    <WebUI>http://[IP]:[PORT:8989]</WebUI>
+    <TemplateURL/>
+    <Icon>https://raw.githubusercontent.com/type0dev/Unraid-Template/main/droppy/droppy-logo.png</Icon>
+    <ExtraParams/>
+    <PostArgs/>
+    <CPUset/>
+    <DateInstalled>1715055459</DateInstalled>
+    <DonateText/>
+    <DonateLink/>
+    <Requires/>
+    <Config Name="Port" Target="8989" Default="8989" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8989</Config>
+    <Config Name="Config" Target="/config" Default="/mnt/user/appdata/droppy" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/droppy</Config>
+    <Config Name="Files" Target="/files" Default="/mnt/user/appdata/droppy/files" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/droppy/files</Config>
+</Container>
