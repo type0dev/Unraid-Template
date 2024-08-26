@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>ownfoil</Name>
+  <Repository>a1ex4/ownfoil</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/a1ex4/ownfoil</Project>
+  <Overview>Ownfoil is a Nintendo Switch library manager, that will also turn your library into a fully customizable and self-hosted Tinfoil Shop. The goal of this project is to manage your library, identify any missing content (DLCs or updates) and provide a user friendly way to browse your content.&#xD;
+&#xD;
+The project is still in development, expect things to break or change without notice.</Overview>
+  <Category>Backup: Cloud:</Category>
+  <WebUI>http://[IP]:[PORT:8465]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/type0dev/Unraid-Template/main/ownfoil/icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1724645471</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Port" Target="8465" Default="8465" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8465</Config>
+  <Config Name="Games Path" Target="/games" Default="/mnt/user/appdata/ownfoil/games" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/storage/games/switch</Config>
+  <Config Name="Config Path" Target="/app/config" Default="/mnt/user/appdata/ownfoil/config" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/ownfoil/config</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">100</Config>
+</Container>
