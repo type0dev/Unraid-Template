@@ -8,7 +8,7 @@
     <Shell>sh</Shell>
     <Privileged>false</Privileged>
     <Support/>
-    <Project>https://github.com/silverwind/droppy</Project>
+    <Project>https://github.com/droppyjs/droppy</Project>
     <Overview>droppy is a self-hosted file storage server with a web interface and capabilities to edit files and view media directly in the browser. It is particularly well-suited to be run on low-end hardware like the Raspberry Pi.&#xD;
         &#xD;
         **Development on droppy has ceased, However it is a solid simple solution for file sharing and management.**</Overview>
